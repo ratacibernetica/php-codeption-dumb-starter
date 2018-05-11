@@ -1,0 +1,24 @@
+{
+	"name": "mroldanmx/php-barebones",
+	"description": "Simple PHP start up repo",
+	"require-dev": {
+		"codeception/codeception": "2.4.x-dev",
+		"hirak/prestissimo": "dev-master"
+	},
+	"autoload":{
+		"psr-4": {
+			"mroldanmx\\php\\": "src"
+		}
+	},
+	"license": "MIT",
+	"authors": [
+	{
+		"name": "Martin Roldan",
+		"email": "marttinroldan@gmail.com"
+	}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"phpoffice/phpspreadsheet": "dev-master"
+	}
+}
